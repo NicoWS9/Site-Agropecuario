@@ -1,0 +1,21 @@
+header{
+    background-color: #3b4421;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 35px; /* Margem entre na borda da direita */
+    gap: 25px; /* Espaço entre os itens da NavBar */ 
+}   
+
+body{
+    background-color: #182c25;
+}
+
+.c2{
+    background-color: #306844;
+}
+
+.agro{
+    color: white;
+}
