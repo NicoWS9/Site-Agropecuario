@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <header> <!-- NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Imagens/logo_agricultura_rustico-removebg-preview.png" alt="" style="width: 100px; height: auto;"></a> <!--Logo-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Links-->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produtos.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>   
+
+    <div class="row c2 mb-5"> <!-- Faixa Inicial-->
+        <div class="col-md-12 mt-4 mb-4">
+            <h1 class="text-center fw-light text-md-center" style="font-size: 52px; color:white;"> Agro é tech</h1> <!--Titulo-->
+            <p class="fw-lighter text-center h5 text-md-center" style="color:white; font-style: oblique;">O portal do Conteúdo Agropecuário na palma da sua mão!</p><!--Subtitulo-->
+        </div>
+    </div> <!--Fim da Faixa Inicial de apresentação-->
+
+    <section id="Card Inicial"> <!--Card Horizontal Inicial-->
+    <div class="container mt-5">
+        <div class="row g-0">
+          <div class="d-flex justify-content-center">
+              <div class="card mb-3 card_inicial" style="max-width: 840px;">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img src="Imagens/image.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+        <div class="col-md-6">
+            <div class="card-body">
+                <h3 class="card-title">As melhores novidades do ramo agropecuário!</h3>
+                  <p class="card-text" style="margin-top: 30px;">Desenvolvemos esta plataforma voltada para o produtor familiar, 
+                            aqui você encontrará manejos e tecnologias para que sua produção familiar se desenvolva para um 
+                              processo funcional e que esteja de acordo com o meio ambiente.</p>
+    </div></div></div></div></div></div></div>
+    </section> <!--Fim do Card Horizontal-->
+
+    <section id="novidades"> <!--Parte de Novidades/Carrossel-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 style="color: white;">Novidades</h1>
+            <hr style="height:2.5px; color:#fff86a; background-color:#fff86a">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner w-70">
+                <div class="carousel-item active"> <!--Imagem 1 carrossel-->
+                  <img src="Imagens/truck-working-field-sunny-day.jpg" class="d-block w-100"  alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Novo Trator Jhon Deere Truck 150v</h5>
+                    <p>Uma nova potência da Jhon Deere está surgindo no mercado prometendo resiliência e economia.</p>
+                  </div>
+                </div>
+                <div class="carousel-item"> <!--Imagem 2 carrossel-->
+                  <img src="Imagens/tractor-agricultural-machine-cultivating-field.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Máquina da Massey Ferguson a venda</h5>
+                    <p>Com um design robusto e adaptativo a cada solo, essa novidade é para você que possui terreno desregular.</p>
+                  </div>
+                </div>
+                <div class="carousel-item"> <!--Imagem 3 carrossel-->
+                  <img src="Imagens/harvesting-combine-field.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Colheitadeiras disponíveis para locação a baixo custo</h5>
+                    <p>Para você que não quer perder tempo na hora da colheita, invista numa das nossas colheitadeiras à aluguel.</p>
+                  </div>
+                </div>
+              </div>
+              <!--Visualizador de indicação do slide atual-->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <!--Botão próximo-->
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+      </div></div></div></div>
+    </section class="mb-5"><!--Fim da parte de Novidades-->
+
+    <footer class="text-white mt-5"><!--Footer-->
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            
+            <!-- Coluna 1: Sobre -->
+            <div class="col-md-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Agro é tech</h5>
+                <p>Aqui, o produtor familiar é valorizado como ele deve ser, a tecnologia é de acesso a todos!</p>
+            </div>
+
+            <!-- Coluna 2: Contato -->
+            <div class="col-md-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Contato</h5>
+                <p><i class="fas fa-home mr-3"></i> Rua Exemplo, 321, Cidade</p>
+                <p><i class="fas fa-envelope mr-3"></i> email@email.com</p>
+            </div>
+        </div>
+        <hr class="mb-4"> <!--Linha-->
+        <!-- Rodapé Inferior -->
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                <p>&copy; 2026 Todos os direitos reservados por:
+                    <a href="#" style="text-decoration: none;"></a><strong class="text-warning">Nicolas Souza</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>

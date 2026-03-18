@@ -1,0 +1,58 @@
+header{
+    background-color: #104210; /* Background da Navbar */
+    color: white !important; /* Cor da fonte NavBar */
+}
+
+.navbar-nav .nav-link {
+    margin-right: 35px; /* Margem entre na borda da direita */
+    gap: 25px; /* Espaço entre os itens da NavBar */ 
+}   
+
+body{
+    background-color: #182c25; /* COr do Background nas páginas */
+}
+
+.c2{
+    background-color: #306844; /* Cor do fundo da faixa inicial */
+}
+
+.card_inicial{
+    background-color: #4A7212; /* Background */
+    color: white; /* Cor da fonte */
+    border: none; /* Tira borda do card */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transforma a transição no hover smooth */
+}
+
+.card_inicial:hover{
+    background-color: #325009; /* Muda a cor no hover */
+    transform: scale(1.03); /* Escala a imagem numa visão intuitiva */
+}
+
+.News_line{
+    color:#182c25; /* Cor da linha Novidades */
+}
+
+footer{
+    background-color: #283d01; /* Background Footer */
+}
+
+.card{ /* Muda o background, cor da fonte, tira a borda e deixa smooth o hover dos card dos produtos */
+    background-color: #4A7212;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover{
+    background-color: #325009;
+    transform: scale(1.03); 
+}
+
+.btn-primary{ /* Muda a cor do botão e tira a borda */
+    background-color: #104210; 
+    border: none;
+}
+
+.btn-primary:hover{ /*Hover do botão*/
+    background-color: #136113;
+}
